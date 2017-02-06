@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block main %}
+
+  
+    <h1> Profile</h1><hr/>
+    <br/>
+    
+    <div>
+       <img src="{{url_for('static', filename='pic.jpg')}}"></img></div>
+       
+    <div>
+      	<table>
+	
+		<thead>
+		
+			<tr>
+				<th> <strong>Keron Young</strong></th>
+			</tr>
+			<p>{{time_info}}</p>
+		</thead>
+		
+    
+        
+        <hr/>
+      
+        
+    <tbody>
+			<tr>
+				<td>Username: Ratty Don</td>
+			</tr>
+        <tr>
+				<td><strong>ID Number:</strong> 620082906</td>
+			</tr>
+			
+			 <tr>
+				<td><strong>Age:</strong> 21</td>
+			</tr>
+			
+			<tr>
+				<td><strong>Gender: </strong>Male</td>
+			</tr>
+			
+			
+			<tr>
+				<td>World's greatest music producer.</td>
+			</tr>
+		 </tbody>
+        
+        <hr/>
+  
+     </div>
+ </div>
+
+{% endblock %}
